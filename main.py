@@ -75,8 +75,8 @@ def save_json(data, filename):
 
 
 def main():
-    log_file = 'mission_computer_main.log'
-    json_file = 'mission_computer_main.json'
+    log_file = r'C:\Users\52649\Documents\GitHub\python_codyseey\Step01\01\PYTHON-PBL01_02\mission_computer_main.log'
+    json_file = r'C:\Users\52649\Documents\GitHub\python_codyseey\Step01\01\PYTHON-PBL01_02\mission_computer_main.json'
 
     # 로그 읽기 → 리스트 생성
     log_entries = read_log_file(log_file)
